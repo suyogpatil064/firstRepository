@@ -33,10 +33,10 @@ public class DriverSetup {
 			firefoxOptions.setProfile(profile);
 			driver = new FirefoxDriver(firefoxOptions);
 		} else if (browser.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver",
-					System.getProperty("user.dir") + "\\resources\\drivers\\msedgedriver.exe");
-
-			driver = new EdgeDriver();
+//			System.setProperty("webdriver.edge.driver",
+//					System.getProperty("user.dir") + "\\resources\\drivers\\msedgedriver.exe");
+//
+//			driver = new EdgeDriver();
 		} else if (browser.equalsIgnoreCase("opera")) {
 			System.setProperty("webdriver.opera.driver",
 					System.getProperty("user.dir") + "\\resources\\drivers\\operadriver.exe");
